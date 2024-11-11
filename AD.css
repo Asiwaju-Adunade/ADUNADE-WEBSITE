@@ -1,0 +1,55 @@
+    .tee{
+        background-color: yellow;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .win{
+        background-color: rgba(0, 128, 58, 0.534);
+        color: white;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .high{
+        background-color: rgba(0, 0, 0, 0.644);
+        color: white;
+        padding: 10px;
+    }
+
+
+    .parent{
+        display: flex;
+    }
+    .ad{
+        flex-grow: 30;
+        padding: 40px;
+        background-color: aquamarine;
+    }
+
+    .fl{
+            flex-grow: 70;
+            background-color: pink;
+            padding: 40px;
+    }
+
+     .list{
+        display: flex;
+        list-style-type: none;
+        gap: 25px;
+        font-size: large;
+     }
+
+    li{
+        padding: 10px;
+    }
+    li:hover{
+        background-color: blue;
+    }
+
+    .fo{
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        text-align: center;
+    } 
